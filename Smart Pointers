@@ -1,4 +1,8 @@
 1. How to wrap a raw pointer in a smart pointer ? Give examples for both shared and unique pointers.
 2. How to create a unique pointer, sahred pointer and weak pointer ? Write all possible ways of creation
-3. How to check whether a pointer is unique or not ?
+3. How to check whether a shared pointer has only one user ? Can we do the same for unique_ptr ?
 4. How to pass shared/unique pointer to a constructor or function ?
+5. How do we check the number of users of shared_ptr ? Can we do the same for unique_ptr ?
+6. What is the use of reset in smart pointers ? 
+7. Can we pass smart pointer as a param to reset ?
+8. What will happen to shared_ptr if it has only one user and we call reset on it ?
